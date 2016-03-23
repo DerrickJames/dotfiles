@@ -1,3 +1,6 @@
+#! /bin/bash
+eval `ssh-agent -s`
+ssh-add ~/.ssh/digital_ocean
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
