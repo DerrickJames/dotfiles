@@ -58,6 +58,13 @@ nmap <Leader><Leader>c :e app/Http/Controllers/<cr>
 nmap <Leader><Leader>i :e app/Http/Repositories/<cr>
 nmap <Leader><Leader>r :e app/Http/Repositories/Eloquent/<cr>
 
+" --- Vertical Split --- "
+
+nmap <Leader>vspm :vsp app/
+nmap <Leader>vspc :vsp app/Http/Controllers/
+nmap <Leader>vspi :vsp app/Http/Repositories/
+nmap <Leader>vspr :vsp app/Http/Repositories/Eloquent/
+
 " --- --- --- --- --- Vim Wiki Settings --- --- --- --- --- "
 
 set nocompatible
