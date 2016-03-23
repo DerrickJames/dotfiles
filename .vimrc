@@ -51,6 +51,12 @@ nmap <Leader>lam: :!php artisan migrate:
 nmap <Leader>lamr :!php artisan migrate:reset<cr>
 nmap <Leader>ladbs :!php artisan db:seed<cr>
 
+" --- Edit folders --- "
+
+nmap <Leader><Leader>m :e app/<cr>
+nmap <Leader><Leader>c :e app/Http/Controllers/<cr>
+nmap <Leader><Leader>i :e app/Http/Repositories/<cr>
+nmap <Leader><Leader>r :e app/Http/Repositories/Eloquent/<cr>
 
 " --- --- --- --- --- Vim Wiki Settings --- --- --- --- --- "
 
