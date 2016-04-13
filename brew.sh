@@ -63,6 +63,7 @@ brew install homebrew/dupes/screen
 
 
 # Install other useful binaries
+brew install postgresql
 brew install tmux
 brew install curl
 brew install mcrypt
