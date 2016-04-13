@@ -60,10 +60,10 @@ nmap <Leader><Leader>r :e app/Http/Repositories/Eloquent/<cr>
 
 " --- Vertical Split --- "
 
-nmap <Leader>vspm :vsp app/
-nmap <Leader>vspc :vsp app/Http/Controllers/
-nmap <Leader>vspi :vsp app/Http/Repositories/
-nmap <Leader>vspr :vsp app/Http/Repositories/Eloquent/
+nmap <Leader>spm :vsp app/
+nmap <Leader>spc :vsp app/Http/Controllers/
+nmap <Leader>spi :vsp app/Repositories/
+nmap <Leader>spr :vsp app/Repositories/Eloquent/
 
 " --- --- --- --- --- Vim Wiki Settings --- --- --- --- --- "
 
@@ -137,11 +137,6 @@ let g:airline#extensions#tabline#enabled = 1
 " let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 
 " nnoremap <buffer> <S-p> :call pdv#DocumentWithSnip()<CR>
-
-source ~/.vim/bundle/pdv/php-doc.vim
-autocmd FileType php inoremap <C-p> <ESC>:call PhpDocSingle()<CR>i
-autocmd FileType php nnoremap <C-p> :call PhpDocSingle()<CR>
-autocmd FileType php vnoremap <C-p> :call PhpDocRange()<CR>
 
 " use powerline fonts
 
