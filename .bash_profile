@@ -19,6 +19,10 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
   ssh-add
 fi
 
+# Android
 export ANDROID_HOME=/Users/derrickmushangi/Library/Android/sdk
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/tools:$PATH
+
+# Laravel
+export PATH=$HOME/.composer/vendor/bin:$PATH
